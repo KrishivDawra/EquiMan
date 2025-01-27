@@ -17,7 +17,7 @@ function App() {
             <Route path='/' element={<Body/>}></Route>
             <Route path='/about' element={<About/>}></Route>
             <Route path='/legalGPT' element={<LegalGPT/>}></Route>
-            <Route path='/product' element={<Products/>}></Route>
+            <Route path='/Blogs' element={<Products/>}></Route>
             <Route path='/legalAID' element={<LegalAID/>}></Route>
             <Route path="*" element={<div>Error 404 found</div>}></Route>
         </Routes>
