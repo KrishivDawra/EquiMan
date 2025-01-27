@@ -1,5 +1,8 @@
 import React from 'react'
 import Header from './components/Header'
+import  { useState } from "react";
+
+import { Link } from 'react-router-dom'
 
 const Blogs = () => {
   const [blogs, setBlogs] = useState([]);
