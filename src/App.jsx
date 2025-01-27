@@ -3,7 +3,7 @@ import Body from "./components/Body"
 
 import { BrowserRouter,Route, Routes } from "react-router-dom"
 import LegalGPT from "./LegalGPT"
-import Products from "./Blogs"
+import Blogs from "./Blogs"
 import LegalAID from "./LegalAID"
 
 function App() {
@@ -17,7 +17,7 @@ function App() {
             <Route path='/' element={<Body/>}></Route>
             <Route path='/about' element={<About/>}></Route>
             <Route path='/legalGPT' element={<LegalGPT/>}></Route>
-            <Route path='/product' element={<Products/>}></Route>
+            <Route path='/blogs' element={<Blogs/>}></Route>
             <Route path='/legalAID' element={<LegalAID/>}></Route>
             <Route path="*" element={<div>Error 404 found</div>}></Route>
         </Routes>
