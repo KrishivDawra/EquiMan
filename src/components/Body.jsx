@@ -42,9 +42,9 @@ const Body = () => {
         </div>
       </div>
       <div >
-        <div className='container border-2 border-white w-48 flex-row text-white '>
-          <h1>hello</h1>
-        </div>
+        
+
+
       </div>
 
 

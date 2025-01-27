@@ -1,6 +1,5 @@
-import React, { useState } from "react";
-import Header from "./components/Header";
-import Blogimp from "./blogimp";
+import React from 'react'
+import Header from './components/Header'
 
 const Blogs = () => {
   const [blogs, setBlogs] = useState([]);
