@@ -10,9 +10,10 @@ const Header = () => {
             
       <div className=' flex gap-5 px-6 py-4'>        
         <h1 className='text-white font-serif font-extrabold text-xl hover:text-red-400'><Link to={'/'}>Home</Link></h1>
-        <h1 className='text-white font-serif font-extrabold text-xl hover:text-red-400'><Link to={'/about'}>About Us</Link></h1>
-        <h1 className='text-white font-serif font-extrabold text-xl hover:text-red-400'><Link to={'/services'}>Services</Link></h1>
-        <h1 className='text-white font-serif font-extrabold text-xl hover:text-red-400' ><Link to={'/product'}>Product</Link></h1>
+        <h1 className='text-white font-serif font-extrabold text-xl hover:text-red-400'><Link to={'/about'}>About</Link></h1>
+        <h1 className='text-white font-serif font-extrabold text-xl hover:text-red-400'><Link to={'/legalGPT'}>LegalGPT</Link></h1>
+        <h1 className='text-white font-serif font-extrabold text-xl hover:text-red-400' ><Link to={'/blogs'}>Blogs</Link></h1>
+        <h1 className='text-white font-serif font-extrabold text-xl hover:text-red-400' ><Link to={'/legalAID'}>LegalAID</Link></h1>
       </div>
       
       <div className='flex gap-2 py-3 justify-center cursor-pointer '>

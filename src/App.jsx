@@ -2,8 +2,9 @@ import About from "./About"
 import Body from "./components/Body"
 
 import { BrowserRouter,Route, Routes } from "react-router-dom"
-import Services from "./Services"
-import Products from "./Products"
+import Services from "./LegalGPT"
+import Products from "./Blogs"
+import LegalAID from "./LegalAID"
 
 function App() {
 
@@ -17,6 +18,7 @@ function App() {
             <Route path='/about' element={<About/>}></Route>
             <Route path='/services' element={<Services/>}></Route>
             <Route path='/product' element={<Products/>}></Route>
+            <Route path='/legalAID' element={<LegalAID/>}></Route>
             <Route path="*" element={<div>Error 404 found</div>}></Route>
         </Routes>
         
