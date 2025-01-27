@@ -1,15 +1,57 @@
 [
     {
       "id": 1,
-      "title": "Understanding React",
+      "title": "Breaking the Stigma – Men’s Mental Health",
       "author": "Jane Doe",
-      "content": "React is a JavaScript library for building user interfaces."
+      "content": "Explore how societal expectations discourage men from seeking help for mental health issues. This blog offers insights into breaking stereotypes and creating a culture where men feel safe addressing their emotional well-being."
     },
     {
       "id": 2,
-      "title": "Learning JavaScript",
+      "title": "Legal Hurdles Men Face",
       "author": "John Smith",
-      "content": "JavaScript is the language of the web."
+      "content": "From custody battles to false allegations, men often face unique legal challenges. This blog provides an overview of these issues and practical advice on navigating the legal system."
+    },
+    {
+        "id": 3,
+        "title": "The Case for Inclusive Equality",
+        "author": "Daniel Carter",
+        "content": "True equality means addressing the struggles of all genders. Learn how recognizing and supporting men’s challenges fosters a more balanced and inclusive society."
+    },
+    {
+        "id": 4,
+        "title": "Fatherhood – Rights and Realities",
+        "author": "Rebecca Collins",
+        "content": "Fathers often struggle to gain fair representation in custody cases. This blog highlights their struggles, shares personal stories, and advocates for equal parenting rights."
+    },
+    {
+        "id": 5,
+        "title": "Bias Against Men at Work",
+        "author": "Michael Evans",
+        "content": "Men can face workplace discrimination, from harassment to unequal benefits. This blog identifies these issues and offers strategies to promote fairness in professional environments."
+    },
+    {
+        "id": 6,
+        "title": "Safe Spaces for Men",
+        "author": "Emily Rogers",
+        "content": "Supportive spaces where men can share experiences without judgment are essential. Discover why these environments matter and how EQUIMEN contributes to building them."
+    },
+    {
+        "id": 7,
+        "title": "False Accusations – A Hidden Struggle",
+        "author": "David Scott",
+        "content": "False allegations can derail lives, causing lasting harm to men’s reputations and mental health. This blog sheds light on the issue and advocates for fair investigative practices."
+    },
+    {
+        "id": 8,
+        "title": "Embracing Vulnerability as Strength",
+        "author": "Lisa Harper",
+        "content": "Strength doesn’t mean hiding emotions. This blog redefines masculinity by encouraging men to embrace vulnerability as a pathway to growth and resilience."
+    },
+    {
+        "id": 9,
+        "title": "Empowering Men with Legal Tools",
+        "author": "Anthony Wells",
+        "content": "Access to the right tools can make a world of difference. Learn how EQUIMEN’s legal calculator and resources empower men to take control of their legal rights confidently."
     }
   ]
   
