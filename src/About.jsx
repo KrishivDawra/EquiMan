@@ -3,12 +3,15 @@ import Header from './components/Header'
 const About = () => {
   return (
 
-    <div >
+    <div className='bg-white'>
       <div >
         <Header/>
       </div>
-      <h1>About us</h1>
-      
+      <div className='flex justify-center'>
+        <div className='text-white m-2 font-bold font-serif text-3xl  w-30 rounded-md  bg-black'  >
+        <h1>About us</h1>
+        </div>
+      </div>
     </div>
   )
 }
