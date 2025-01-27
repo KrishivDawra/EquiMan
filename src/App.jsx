@@ -17,11 +17,7 @@ function App() {
             <Route path='/' element={<Body/>}></Route>
             <Route path='/about' element={<About/>}></Route>
             <Route path='/legalGPT' element={<LegalGPT/>}></Route>
-<<<<<<< HEAD
             <Route path='/blogs' element={<Blogs/>}></Route>
-=======
-            <Route path='/Blogs' element={<Products/>}></Route>
->>>>>>> 6f51b9055587f16587fcc772dd9b74e955964fa3
             <Route path='/legalAID' element={<LegalAID/>}></Route>
             <Route path="*" element={<div>Error 404 found</div>}></Route>
         </Routes>

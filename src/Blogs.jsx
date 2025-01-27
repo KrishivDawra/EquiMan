@@ -28,7 +28,7 @@ const Blogs = () => {
 }
 
       {/* Add Blog Form */}
-      <form onSubmit={handleSubmit} className="mb-6 p-4 bg-white shadow rounded">
+      <form onSubmit={handleSubmit} className="mb-6 p-4 bg-white shadow rounded basis-1/4">
         <div className="mb-4">
           <label className="block text-sm font-bold mb-2">Title:</label>
           <input
@@ -71,8 +71,8 @@ const Blogs = () => {
       </form>
 
       {/* Display Blogs */}
-      <div>
-        <h2 className="text-2xl font-bold mb-4">All Blogs</h2>
+      <div className="basis-3/4">
+        <h2 className="text-2xl font-bold mb-4 flex ">All Blogs</h2>
         {blogs.length === 0 ? (
           <p className="text-gray-500">No blogs added yet.</p>
         ) : (
