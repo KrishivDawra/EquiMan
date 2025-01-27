@@ -1,7 +1,7 @@
 import React from 'react'
 
 import flash from './flash.json'
-import Flashcard from './flashcard'
+import Flashcard from './Flashcard'
 
 const FlashInport = () => {
   return (
