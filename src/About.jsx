@@ -7,11 +7,7 @@ const About = () => {
       <div >
         <Header/>
       </div>
-      <div className='flex justify-center'>
-        <div className='text-white m-2 font-bold font-serif text-3xl  w-30 rounded-md  bg-black'  >
-        <h1>About us</h1>
-        </div>
-      </div>
+      
     </div>
   )
 }
