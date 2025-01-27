@@ -1,9 +1,14 @@
 import React from 'react'
-
+import Header from './components/Header'
 const About = () => {
   return (
-    <div>
-      <h1>About</h1>
+
+    <div >
+      <div >
+        <Header/>
+      </div>
+      <h1>About us</h1>
+      
     </div>
   )
 }
