@@ -9,7 +9,7 @@ function App() {
 
   return (
     <>
-    <div className="px-0 py-0 bg-[#BB8470] ">
+    <div className="px-0 py-0 bg-black ">
       <BrowserRouter>
         
         <Routes>
