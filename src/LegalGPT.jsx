@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom'
 import Header from './components/Header';
 
 
-function App() {
+function LegalGPT() {
   const [query, setQuery] = useState(""); // Search query
   const [results, setResults] = useState([]); // Search results
   const [loading, setLoading] = useState(false); // Loading state
@@ -140,4 +140,4 @@ function App() {
   );
 }
 
-export default App;
+export default LegalGPT;

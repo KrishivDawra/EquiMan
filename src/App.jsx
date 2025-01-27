@@ -2,7 +2,7 @@ import About from "./About"
 import Body from "./components/Body"
 
 import { BrowserRouter,Route, Routes } from "react-router-dom"
-import Services from "./LegalGPT"
+import LegalGPT from "./LegalGPT"
 import Products from "./Blogs"
 import LegalAID from "./LegalAID"
 
@@ -16,7 +16,7 @@ function App() {
         <Routes>
             <Route path='/' element={<Body/>}></Route>
             <Route path='/about' element={<About/>}></Route>
-            <Route path='/services' element={<Services/>}></Route>
+            <Route path='/legalGPT' element={<LegalGPT/>}></Route>
             <Route path='/product' element={<Products/>}></Route>
             <Route path='/legalAID' element={<LegalAID/>}></Route>
             <Route path="*" element={<div>Error 404 found</div>}></Route>
