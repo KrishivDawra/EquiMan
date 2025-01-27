@@ -26,8 +26,8 @@ const Body = () => {
       <div className='bg-slate-400 h-1 rounded-2xl'>
       
       </div>
-    
-    <div className='flex justify-center items-center pt-[50px] border-white'>
+      <h1 className='text-white text-5xl font-serif flex justify-center items-center pt-12 '><u>Your Help Desk!</u></h1>
+    <div className='flex justify-center items-center pt-[50px] '>
     <FlashInport/>
     </div>
 
@@ -46,16 +46,9 @@ const Body = () => {
           </div>
       </div>
     
-    
-      
-     
 
-
-
-      
-
-    
-    </div>
+  
+  </div>
        
   )
 }
