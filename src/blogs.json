@@ -1,0 +1,15 @@
+[
+    {
+      "id": 1,
+      "title": "Understanding React",
+      "author": "Jane Doe",
+      "content": "React is a JavaScript library for building user interfaces."
+    },
+    {
+      "id": 2,
+      "title": "Learning JavaScript",
+      "author": "John Smith",
+      "content": "JavaScript is the language of the web."
+    }
+  ]
+  
