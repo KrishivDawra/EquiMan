@@ -1,0 +1,18 @@
+[{
+    "image": "./src/assets/f1.jpg",
+    "title": "Expert blogs"
+
+},
+{
+    "image": "./src/assets/f2.jpg",
+    "title": "Legal support"
+},
+{
+    "image":"./src/assets/f3.jpg ",
+    "title":"chat with us"
+},
+{
+    "image":"./src/assets/f4.jpg ",
+    "title":"About Equimen"
+}
+]
