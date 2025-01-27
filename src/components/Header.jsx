@@ -2,23 +2,21 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 const Header = () => {
   return (
-    <div className='flex justify-between '>
-
-      <div className='flex '>
-        <img className='h-[40px] w-[40px]' src=".\src\assets\logo.jpg" alt="" />
-        <h1 className='px-2 py-2 size- font-serif text-red-300'>EggNest</h1>
+    <div className="flex justify-between bg-black drop-shadow-2xl px-8 py-3 align-middle">
+      <div className='flex pl-4 pt-1'>
+        
+        <h1 className='py-3 font-serif text-red-300 text-2xl'>EquiMan</h1>
       </div>
             
-      <ul className=' flex gap-5 px-6 py-3 border-2 bg-gray-50 rounded-2xl shadow-md shadow-green-300 '>
-        <li className=' hover:text-green-600'><Link to={'/'}>Home</Link></li>
-        <li className=' hover:text-green-600'><Link to={'/about'}>About Us</Link></li>
-        <li className=' hover:text-green-600'><Link to={'/services'}>Services</Link></li>
-        <li className=' hover:text-green-600' ><Link to={'/product'}></Link></li>
-      </ul>
+      <div className=' flex gap-5 px-6 py-4'>        
+        <h1 className='text-white text-xl hover:text-green-600'><Link to={'/'}>Home</Link></h1>
+        <h1 className='text-white text-xl hover:text-green-600'><Link to={'/about'}>About Us</Link></h1>
+        <h1 className='text-white text-xl hover:text-green-600'><Link to={'/services'}>Services</Link></h1>
+        <h1 className='text-white text-xl hover:text-green-600' ><Link to={'/product'}></Link></h1>
+      </div>
       
-      <div className='gap-10'>
-        <a href="#" className='px-2'>Sign In</a>
-        <button className='bg-green-500 hover:bg-green-600 px-5 py-2 rounded-full'>Join Us</button>
+      <div className='flex gap-2 py-3 justify-center cursor-pointer '>
+        <button className='bg-red-300 hover:bg-green-600 px-5 py-2 rounded-full'>Join Us</button>
       </div>
     </div>
 

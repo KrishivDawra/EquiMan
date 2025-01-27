@@ -1,37 +1,39 @@
 import React from 'react'
+import Header from './Header'
 
 const Body = () => {
   return (
-    <div>
-      <div className='flex py-14  '>
-        <div className=' space-y-4 pt-[80px] pr-[50px]'>
-          <h1 className='text-5xl font-sans text-green-600 font-semibold'>Farm-Fresh Organic Eggs, Straight to Your Door!</h1>
-          <p className='font-sans '>Get farm-fresh eggs delivered to your doorstep at unbeatable wholesale prices – Quality and convenience, straight from the farm!</p>
-          <button className='bg-green-400 hover:bg-green-600 px-8 py-2 rounded-full font-semibold'>Join Us & Place Your ORDER NOW!</button>
-        </div>
-
-        <img src="./src/assets/eggnest.jpg" className='h-[450px]' alt="" />
-      </div>
-
-      <div>
-        <div>
+    <div className="h-screen bg-[url('./src/assets/bg.jpg')] bg-cover  bg-scroll bg-center shadow-left">
+      <Header/>
+      <div className="absolute inset-0 gap-8 bg-black/35 pointer-events-none flex flex-col justify-center items-center">
+        <div className='flex flex-col pt-30 font-serif justify-center items-center gap-1 '>
+          <h1 className='text-white font-extrabold text-[55px] '>Empowering Voices, Enabling Equality–</h1>
+          <h1 className='text-white font-extrabold text-[50px] shadow-text-black-xl'> BECAUSE MEN MATTER TOO</h1>
 
         </div>
+
+        <div className='pt-8'>
+          <button className='text-black px-8 py-3 font-serif rounded-2xl flex justify-center items-center bg-white'>Join Us!</button>
+        </div>
+
+
+
         
-        <div>
-
-        </div>
-
-        <div>
-          
-        </div>
       </div>
+
+      <div className='pt-[600px] flex justify-center items-cente'>
+          <p className='text-black'>krishiv</p>
+        </div>
+      
+     
+
+
+
+      
+
+      
     </div>
-    
-    
-
-
-    
+       
   )
 }
 
