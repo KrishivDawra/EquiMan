@@ -27,8 +27,13 @@ const Body = () => {
       
       </div>
     
-    <div className='flex justify-center items-center pt-[50px] '>
+    <div className='flex justify-center items-center pt-[50px] border-white'>
     <FlashInport/>
+    </div>
+
+    <div className='w-full h-1 mt-10 bg-slate-400 rounded-2xl'>
+      <p>.</p>
+
     </div>
     <div className='flex justify-center mt-4'>
         <div className='text-white m-2 font-bold font-serif text-3xl  w-30 rounded-md antialiased tracking-wide  bg-black'  >
