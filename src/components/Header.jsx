@@ -17,7 +17,7 @@ const Header = () => {
       </div>
       
       <div className='flex gap-2 py-3 justify-center cursor-pointer '>
-        <button className='bg-red-300 hover:bg-green-600 px-5 py-2 rounded-full'>Join Us</button>
+        <button className='bg-red-300 hover:bg-green-600 px-5 py-2 font-serif  rounded-full font-bold'><Link to={'/connect_us'}> Connect</Link> </button>
       </div>
     </div>
 

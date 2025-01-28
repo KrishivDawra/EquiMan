@@ -40,13 +40,19 @@ const Blogs = () => {
   };
 
   return (
-    <div>
+    <div >
       <Header />
-      <h1 className="text-3xl font-bold mb-6 text-white text-center">Blog Manager</h1>
-      <div className="p-5 min-h-screen bg-gray-100 ">
+      <div className='h-1 bg-slate-300 rounded-lg mb-4'>
+        .
+      </div>
+      <h1 className="text-3xl font-bold mb-6 text-white font-serif text-center"><u>BLOG HUB</u></h1>
+      <div className="p-5 min-h-screen bg-black ">
         <div className="flex flex-row-reverse w-full  ">
           {/* Blog Form */}
-          <form onSubmit={handleSubmit} className="mb-2 p-4 bg-gray-200 text-black shadow rounded w-1/3">
+          <form onSubmit={handleSubmit} className="mb-2 p-4 bg-black text-white border-2  border-white   shadow rounded-lg w-1/3">
+          <div>
+            <h1 className='font-serif font-bold text-lg '><center>Submit Your BLOGS</center></h1>
+          </div>
             <div className="mb-4">
               <label className="block text-sm font-bold mb-2">Title:</label>
               <input
@@ -89,7 +95,7 @@ const Blogs = () => {
           </form>
 
           {/* Display Blogs */}
-          <div className="w-2/3 grid grid-cols-3 gap-6 ">
+          <div className="w-2/3 grid grid-cols-3 gap-6 bg-black">
             {blogs.length === 0 ? (
               <p></p>
             ) : (
