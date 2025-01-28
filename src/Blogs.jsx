@@ -1,42 +1,52 @@
-import React from 'react'
-import Header from './components/Header'
-import  { useState } from "react";
-import { Link } from 'react-router-dom'
-import Blogimp from './blogimp';
-import Blogimp1 from './blogimp1';
-
+import React, { useState, useEffect } from 'react';
+import Header from './components/Header';
+import Blogimp1 from './Blogimp1';
 
 const Blogs = () => {
   const [blogs, setBlogs] = useState([]);
   const [formData, setFormData] = useState({
-    title: "",
-    author: "",
-    content: "",
+    title: '',
+    author: '',
+    content: '',
   });
 
+  // Fetch blogs from the server
+  useEffect(() => {
+    fetch('http://localhost:5000/blogs')
+      .then((response) => response.json())
+      .then((data) => setBlogs(data))
+      .catch((error) => console.error('Error fetching blogs:', error));
+  }, []);
+
+  // Handle input changes
   const handleChange = (e) => {
     const { name, value } = e.target;
     setFormData({ ...formData, [name]: value });
   };
 
+  // Handle form submission
   const handleSubmit = (e) => {
     e.preventDefault();
-    setBlogs([...blogs, formData]);
-    setFormData({ title: "", author: "", content: "" });
+    fetch('http://localhost:5000/blogs', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify(formData),
+    })
+      .then(() => {
+        setBlogs([...blogs, formData]);
+        setFormData({ title: '', author: '', content: '' });
+      })
+      .catch((error) => console.error('Error saving blog:', error));
   };
 
   return (
-    <div bg-white>
-      <div>
-        <Header />
-      </div>
-      <h1 className="text-3xl font-bold mb-6 text-white flex justify-center items-center" >Blog Manager</h1>
-      <div className=" flex justify-center items-center min-h-screen bg-gray-100 px-6">
-        <div className="flex flex-row-reverse gap-5 w-full max-w-screen-lg">
-
-
-          {/* Add Blog Form */}
-          <form onSubmit={handleSubmit} className="mb-2 p-4 bg-white shadow rounded ">
+    <div>
+      <Header />
+      <h1 className="text-3xl font-bold mb-6 text-white text-center">Blog Manager</h1>
+      <div className="p-5 min-h-screen bg-gray-100 ">
+        <div className="flex flex-row-reverse w-full  ">
+          {/* Blog Form */}
+          <form onSubmit={handleSubmit} className="mb-2 p-4 bg-gray-200 text-black shadow rounded w-1/3">
             <div className="mb-4">
               <label className="block text-sm font-bold mb-2">Title:</label>
               <input
@@ -78,38 +88,20 @@ const Blogs = () => {
             </button>
           </form>
 
-          
-           
-
-
-
-
-            <div className='grid-cols-3 gap-3  pt-5'>
-            {/* Display Blogs */}
-            <div className='reverse-grid grid gap-5 py-5 grid-cols-3 items-end' >
-            {/* <h2 className="text-2xl font-bold mb-4 flex ">All Blogs</h2> */}
+          {/* Display Blogs */}
+          <div className="w-2/3 grid grid-cols-3 gap-6 ">
             {blogs.length === 0 ? (
-              <p >.</p>
+              <p></p>
             ) : (
-              
               [...blogs].reverse().map((blog, index) => (
                 <Blogimp1 key={index} {...blog} />
               ))
             )}
-              </div>
-              <Blogimp/>
-              
-            </div>
             
-
-            
-
-
-
-         
-            
+          </div>
           
         </div>
+        
       </div>
     </div>
   );
