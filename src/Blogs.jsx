@@ -3,7 +3,7 @@ import Header from './components/Header'
 import  { useState } from "react";
 import { Link } from 'react-router-dom'
 import Blogimp from './blogimp';
-import blogimp1 from './blogimp1';
+import Blogimp1 from './blogimp1';
 
 
 const Blogs = () => {
@@ -84,16 +84,18 @@ const Blogs = () => {
 
 
 
-            <div className='flex flex-row pt-5'>
+            <div className='grid-cols-3 gap-3  pt-5'>
+            
               <Blogimp/>
               {/* Display Blogs */}
-         <div >
+              <div className='flex grid gap-5 py-5 grid-cols-3' >
             {/* <h2 className="text-2xl font-bold mb-4 flex ">All Blogs</h2> */}
             {blogs.length === 0 ? (
               <p >.</p>
             ) : (
+              
               blogs.map((blog, index) => (
-                <blogimp1 key={index} {...blog}/>
+                < Blogimp1 key={index} {...blog}/>
               ))
             )}
               </div>
