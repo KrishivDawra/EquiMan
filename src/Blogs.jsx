@@ -1,9 +1,9 @@
 import React from 'react'
 import Header from './components/Header'
 import  { useState } from "react";
-
 import { Link } from 'react-router-dom'
 import Blogimp from './blogimp';
+import blogimp1 from './blogimp1';
 
 const Blogs = () => {
   const [blogs, setBlogs] = useState([]);
@@ -77,26 +77,28 @@ const Blogs = () => {
             </button>
           </form>
 
-          {/* Display Blogs */}
-         {/* <div className="basis-3/4">
-            <h2 className="text-2xl font-bold mb-4 flex ">All Blogs</h2>
-            {blogs.length === 0 ? (
-              <p className="text-gray-500">No blogs added yet.</p>
-            ) : (
-              blogs.map((blog, index) => (
-                <Blogimp key={index} {...blog} />
-              ))
-            )}
-              </div>
-
-            */}
+          
+           
 
 
             
 
             <div className='flex flex-row pt-5'>
               <Blogimp/>
+              {/* Display Blogs */}
+         <div >
+            {/* <h2 className="text-2xl font-bold mb-4 flex ">All Blogs</h2> */}
+            {blogs.length === 0 ? (
+              <p >.</p>
+            ) : (
+              blogs.map((blog, index) => (
+                <blogimp1 key={index} {...blog} />
+              ))
+            )}
+              </div>
             </div>
+            
+
             
 
 
