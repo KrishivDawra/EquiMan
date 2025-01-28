@@ -3,6 +3,50 @@ const fs = require('fs');
 const cors = require('cors');
 const app = express();
 const PORT = 5000;
+const bodyParser = require("body-parser");
+
+app.use(bodyParser.json());
+
+const readUsersFromFile = () => {
+  if (!fs.existsSync(DATA_FILE)) {
+    fs.writeFileSync(DATA_FILE, JSON.stringify([]));
+  }
+  const data = fs.readFileSync(DATA_FILE);
+  return JSON.parse(data);
+};
+
+const writeUsersToFile = (users) => {
+  fs.writeFileSync(DATA_FILE, JSON.stringify(users, null, 2));
+};
+
+app.post("/signup", (req, res) => {
+  const { email, password } = req.body;
+  const users = readUsersFromFile();
+  const userExists = users.find((user) => user.email === email);
+
+  if (userExists) {
+    return res.status(400).json({ message: "User already exists" });
+  }
+
+  users.push({ email, password });
+  writeUsersToFile(users);
+  res.status(201).json({ message: "Sign-up successful" });
+});
+
+app.post("/login", (req, res) => {
+  const { email, password } = req.body;
+  const users = readUsersFromFile();
+  const user = users.find(
+    (user) => user.email === email && user.password === password
+  );
+
+  if (!user) {
+    return res.status(400).json({ message: "Invalid credentials" });
+  }
+
+  res.status(200).json({ message: "Login successful" });
+});
+
 
 // Middleware
 app.use(cors());

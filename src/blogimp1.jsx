@@ -2,9 +2,9 @@ import React from "react";
 
 const Blogimp1 = ({ title, author, content }) => {
   return (
-    <div className="relative gap-6 h-[320px] p-2 w-[245px] border-4 border-black shadow-xl  overflow-hidden group">
+    <div className="relative rounded-lg gap-6 h-[320px] p-2 w-[245px] border-4 border-white shadow-xl  overflow-hidden group">
   {/* Front Side */}
-  <div className="absolute inset-0 bg-white transition-transform duration-500 transform group-hover:translate-y-full">
+  <div className="absolute inset-0 bg-blak text-white transition-transform duration-500 transform group-hover:translate-y-full">
     <h1 className="text-lg font-bold font-serif text-blue-700">
       Author: {author}
     </h1>
