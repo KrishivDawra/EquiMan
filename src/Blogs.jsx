@@ -5,6 +5,7 @@ import { Link } from 'react-router-dom'
 import Blogimp from './blogimp';
 import blogimp1 from './blogimp1';
 
+
 const Blogs = () => {
   const [blogs, setBlogs] = useState([]);
   const [formData, setFormData] = useState({
@@ -92,7 +93,7 @@ const Blogs = () => {
               <p >.</p>
             ) : (
               blogs.map((blog, index) => (
-                <blogimp1 key={index} {...blog} />
+                <blogimp1 key={index} {...blog}/>
               ))
             )}
               </div>
