@@ -85,20 +85,20 @@ const Blogs = () => {
 
 
             <div className='grid-cols-3 gap-3  pt-5'>
-            
-              <Blogimp/>
-              {/* Display Blogs */}
-              <div className='flex grid gap-5 py-5 grid-cols-3' >
+            {/* Display Blogs */}
+            <div className='reverse-grid grid gap-5 py-5 grid-cols-3 items-end' >
             {/* <h2 className="text-2xl font-bold mb-4 flex ">All Blogs</h2> */}
             {blogs.length === 0 ? (
               <p >.</p>
             ) : (
               
-              blogs.map((blog, index) => (
-                < Blogimp1 key={index} {...blog}/>
+              [...blogs].reverse().map((blog, index) => (
+                <Blogimp1 key={index} {...blog} />
               ))
             )}
               </div>
+              <Blogimp/>
+              
             </div>
             
 
