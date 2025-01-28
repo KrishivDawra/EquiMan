@@ -17,6 +17,8 @@ const BlogsPROP = (props) => {
   <div className="absolute inset-0 bg-blue-500 text-white flex items-center justify-center transition-transform duration-500 transform translate-y-full group-hover:translate-y-0">
     <h1 className="text-xl font-bold">More Information</h1>
   </div>
+
+
 </div>
 
   )

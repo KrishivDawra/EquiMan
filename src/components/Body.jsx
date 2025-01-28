@@ -36,10 +36,38 @@ const Body = () => {
 
         </div>
       
-      <div className='flex justify-center mt-4'>
-        <div className='text-white m-2 font-bold font-serif text-3xl  w-30 rounded-md antialiased tracking-wide  bg-black'  >
-          <h1>About Us</h1>
+      <div className='flex justify-center items-center px-14 mt-24 gap-x-24 pb-24'>
+
+        <div className='flex justify-left items-left flex-col'>
+          <h1 className='text-white text-2xl'><pre>1.7 Million+</pre></h1>
+          <h1 className='text-gray-400'><pre>Lives Positively Impacted</pre></h1>
         </div>
+      
+        <div className='flex flex-col justify-center items-center gap-8'>
+          <div className='text-white m-2 font-bold font-serif text-5xl  w-30 rounded-md antialiased tracking-wide  bg-black'  >
+            <h1>About Us</h1>
+          </div>
+
+          <div >
+            <h1 className='text-white text-[25px] font-extrabold font-serif'><pre>Revolutionary, inclusive, and future-focused</pre></h1>
+          </div>
+          
+
+          <p className='text-white  text-xl font-serif text-center tracking-wider '>At EQUIMEN, we empower men by addressing mental health stigma, advocating for legal equality, challenging traditional gender roles, and bridging resource gaps. Our mission is to create a supportive community where men can embrace emotional well-being, access tailored resources, and thrive authentically, free from societal biases and outdated expectations.</p>
+
+          <div className='pt-4'>
+            <button className=' px-8 py-3 bg-white rounded-3xl'>Read more</button>
+          </div>
+        
+        
+        </div>
+
+        <div className='flex justify-left items-left flex-col'>
+          <h1 className='text-white text-2xl'>5-7 %</h1>
+          <h1 className='text-gray-400'><pre>cases increased</pre></h1>
+        </div>
+
+
       </div>
       <div >
         
