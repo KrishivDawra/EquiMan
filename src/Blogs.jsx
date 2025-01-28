@@ -32,11 +32,11 @@ const Blogs = () => {
       </div>
       <h1 className="text-3xl font-bold mb-6 text-white flex justify-center items-center" >Blog Manager</h1>
       <div className=" flex justify-center items-center min-h-screen bg-gray-100 px-6">
-        <div className="flex flex-row-reverse gap-5 w-full max-w-screen-lg px-8">
+        <div className="flex flex-row-reverse gap-5 w-full max-w-screen-lg">
 
 
           {/* Add Blog Form */}
-          <form onSubmit={handleSubmit} className="mb-6 p-4 bg-white shadow rounded ">
+          <form onSubmit={handleSubmit} className="mb-2 p-4 bg-white shadow rounded ">
             <div className="mb-4">
               <label className="block text-sm font-bold mb-2">Title:</label>
               <input
@@ -82,7 +82,7 @@ const Blogs = () => {
            
 
 
-            
+
 
             <div className='flex flex-row pt-5'>
               <Blogimp/>
