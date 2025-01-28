@@ -44,7 +44,7 @@ const Body = () => {
 
             {/*  */}
           
-            <div className='flex flex-col justify-center items-center gap-6'>
+            <div className='flex flex-col justify-center items-center gap-6 ' id='#'>
 
               <div className='text-white m-2 font-bold font-serif text-6xl  w-30 rounded-md antialiased tracking-wide  bg-black'  >
                 <h1>About Us</h1>

@@ -29,16 +29,23 @@ const AboutDrop = () => {
   return (
     <div className='flex flex-col gap-4' id='krish'>
       {sections.map((section, index) => (
-        <div key={index} className='border-2 w-[450px] p-3'>
-          <h1
-            className='text-white cursor-pointer text-[17px] font-serif font-bold flex justify-center items-center'
-            onClick={() => handleToggle(index)}
-          >
-            {section.title}
-          </h1>
-          {activeIndex === index && (
-            <p className='text-white'>{section.content}</p>
-          )}
+        <div>
+            <div key={index} className='border-2 w-[450px] p-3'>
+            <div className='flex justify-between'>
+                <h1
+                    className='text-white cursor-pointer text-[17px] font-serif font-bold flex justify-left items-left'
+                    onClick={() => handleToggle(index)}
+                >
+                    {section.title}
+                </h1>
+                <span className='text-white cursor-pointer'>&#11167;</span>
+            </div>
+            {activeIndex === index && (
+                <p className='text-white'>{section.content}</p>
+            )}
+            </div>
+
+            
         </div>
       ))}
     </div>
