@@ -1,11 +1,15 @@
 import React from "react";
-
-const Blogimp = ({ title, author, content }) => {
+import blogs from "./blogs.json"
+import BlogsPROP from "./BlogPROP";
+const Blogimp = () => {
   return (
-    <div className="p-4 mb-4 bg-white shadow rounded border">
-      <h3 className="text-xl font-bold">{title}</h3>
-      <p className="text-sm text-gray-500">By {author}</p>
-      <p>{content}</p>
+    <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+      {blogs.map((ele)=>{
+        return <BlogsPROP
+        author={ele.author}
+        title={ele.title}
+        content={ele.content}/>
+      })}
     </div>
   );
 };

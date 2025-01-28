@@ -3,6 +3,7 @@ import Header from './components/Header'
 import  { useState } from "react";
 
 import { Link } from 'react-router-dom'
+import Blogimp from './blogimp';
 
 const Blogs = () => {
   const [blogs, setBlogs] = useState([]);
@@ -28,13 +29,13 @@ const Blogs = () => {
       <div>
         <Header />
       </div>
-      <h1 className="text-3xl font-bold mb-6 text-white " >Blog Manager</h1>
-      <div className="w-3/4 flex ">
-        <div className="flex flex-row-reverse app p-6 bg-gray-100 gap-5 min-h-screen">
+      <h1 className="text-3xl font-bold mb-6 text-white flex justify-center items-center" >Blog Manager</h1>
+      <div className=" flex justify-center items-center min-h-screen bg-gray-100 px-6">
+        <div className="flex flex-row-reverse gap-5 w-full max-w-screen-lg px-8">
 
 
           {/* Add Blog Form */}
-          <form onSubmit={handleSubmit} className="mb-6 p-4 bg-white shadow rounded basis-1/4">
+          <form onSubmit={handleSubmit} className="mb-6 p-4 bg-white shadow rounded ">
             <div className="mb-4">
               <label className="block text-sm font-bold mb-2">Title:</label>
               <input
@@ -77,7 +78,7 @@ const Blogs = () => {
           </form>
 
           {/* Display Blogs */}
-          <div className="basis-3/4">
+         {/* <div className="basis-3/4">
             <h2 className="text-2xl font-bold mb-4 flex ">All Blogs</h2>
             {blogs.length === 0 ? (
               <p className="text-gray-500">No blogs added yet.</p>
@@ -86,7 +87,23 @@ const Blogs = () => {
                 <Blogimp key={index} {...blog} />
               ))
             )}
-          </div>
+              </div>
+
+            */}
+
+
+            
+
+            <div className='flex flex-row pt-5'>
+              <Blogimp/>
+            </div>
+            
+
+
+
+         
+            
+          
         </div>
       </div>
     </div>
