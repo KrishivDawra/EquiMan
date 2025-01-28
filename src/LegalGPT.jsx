@@ -107,19 +107,24 @@ function LegalGPT() {
         {/* Action Buttons */}
         <div className="flex flex-wrap justify-center gap-4 mt-6">
           <button className="bg-gray-700 hover:bg-gray-600 text-white px-4 py-2 rounded-md">
-          What is hydroponics?
+          How can EQUIMEN help me with mental health support?
+
           </button>
           <button className="bg-gray-700 hover:bg-gray-600 text-white px-4 py-2 rounded-md">
-          How does hydroponics differ from traditional soil-based farming?
+          What legal resources are available for men on this platform?
+
           </button>
           <button className="bg-gray-700 hover:bg-gray-600 text-white px-4 py-2 rounded-md">
-          What are the main types of hydroponic systems?
+          Can I find information about custody battles and alimony here?
+
           </button>
           <button className="bg-gray-700 hover:bg-gray-600 text-white px-4 py-2 rounded-md">
-          What are the advantages of hydroponics?
+          What steps can I take to challenge societal gender roles?
+
           </button>
           <button className="bg-gray-700 hover:bg-gray-600 text-white px-4 py-2 rounded-md">
-          What nutrients are required in hydroponics?
+          Does EQUIMEN offer counseling or peer support?
+
           </button>
           <button className="bg-gray-700 hover:bg-gray-600 text-white px-4 py-2 rounded-md">
             More
