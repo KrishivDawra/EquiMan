@@ -5,19 +5,19 @@ const Header = () => {
     <div className="flex justify-between bg-black drop-shadow-2xl px-8 py-3 align-middle">
       <div className='flex pl-4 pt-1'>
         
-        <h1 className='py-3 font-serif font-extrabold text-red-400 text-2xl'>EquiMan</h1>
+        <h1 className='py-3 font-serif font-extrabold text-orange-300 text-2xl'>EquiMan</h1>
       </div>
             
       <div className=' flex gap-5 px-6 py-4'>        
-        <h1 className='text-white font-serif font-extrabold text-xl hover:text-red-400'><Link to={'/'}>Home</Link></h1>
-        <h1 className='text-white font-serif font-extrabold text-xl hover:text-red-400'><Link to={'#'}>About</Link></h1>
-        <h1 className='text-white font-serif font-extrabold text-xl hover:text-red-400'><Link to={'/legalGPT'}>LegalGPT</Link></h1>
-        <h1 className='text-white font-serif font-extrabold text-xl hover:text-red-400' ><Link to={'/blogs'}>Blogs</Link></h1>
-        <h1 className='text-white font-serif font-extrabold text-xl hover:text-red-400' ><Link to={'/legalAID'}>LegalAID</Link></h1>
+        <h1 className='text-white font-serif font-extrabold text-xl hover:text-orange-300'><Link to={'/'}>Home</Link></h1>
+        <h1 className='text-white font-serif font-extrabold text-xl hover:text-orange-300'><Link to={'#'}>About</Link></h1>
+        <h1 className='text-white font-serif font-extrabold text-xl hover:text-orange-300'><Link to={'/legalGPT'}>LegalGPT</Link></h1>
+        <h1 className='text-white font-serif font-extrabold text-xl hover:text-orange-300' ><Link to={'/blogs'}>Blogs</Link></h1>
+        <h1 className='text-white font-serif font-extrabold text-xl hover:text-orange-300' ><Link to={'/legalAID'}>LegalAID</Link></h1>
       </div>
       
       <div className='flex gap-2 py-3 justify-center cursor-pointer '>
-        <button className='bg-red-300  px-5 py-2 font-serif  rounded-full font-bold'><Link to={'/connect_us'}> Connect</Link> </button>
+        <button className='bg-orange-300   px-5 py-2 font-serif  rounded-full font-bold'><Link to={'/connect_us'}> Connect</Link> </button>
       </div>
     </div>
 
