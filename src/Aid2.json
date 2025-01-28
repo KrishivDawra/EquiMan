@@ -1,0 +1,81 @@
+[
+    {
+        "law": "Modification of Alimony",
+        "description": "Either spouse can request changes to alimony if there is a significant change in financial circumstances."
+      },
+      {
+        "law": "Termination of Alimony",
+        "description": "Alimony typically ends upon the recipient's remarriage, cohabitation, or the death of either spouse."
+      },
+      {
+        "law": "No-Fault Alimony",
+        "description": "Alimony can be granted regardless of which party was at fault for the divorce."
+      },
+      {
+        "law": "Health and Age Consideration",
+        "description": "The physical and mental health of both spouses is taken into account when deciding alimony."
+      },
+      {
+        "law": "Tax Implications",
+        "description": "As of recent laws, alimony payments are no longer tax-deductible by the payer nor considered taxable income for the recipient."
+      },
+      {
+        "law": "Child Support vs. Alimony",
+        "description": "Child support takes priority over alimony in financial arrangements."
+      },
+      {
+        "law": "Cohabitation Impact",
+        "description": "Alimony payments may be reduced or terminated if the recipient spouse starts cohabiting with another person."
+      },
+      {
+        "law": "Lump-Sum Alimony",
+        "description": "One-time alimony payment in lieu of ongoing monthly payments, often used in amicable separations."
+      },
+      {
+        "law": "Fault-Based Alimony",
+        "description": "In some jurisdictions, the fault in the divorce may influence the amount or decision to award alimony."
+      },
+      {
+        "law": "Alimony and Prenuptial Agreements",
+        "description": "Prenuptial agreements can outline or waive alimony terms, but they must be legally enforceable."
+      },
+      {
+        "law": "Alimony Enforcement",
+        "description": "Failure to pay alimony can result in legal penalties, including wage garnishment or contempt of court."
+      },
+      {
+        "law": "Temporary Alimony",
+        "description": "Support provided during the divorce proceedings to maintain financial stability until the final decision is made."
+      },
+      {
+        "law": "Imputation of Income",
+        "description": "Courts can assign an income level to a spouse if they are found to be voluntarily unemployed or underemployed."
+      },
+      {
+        "law": "Domestic Violence Impact",
+        "description": "A history of domestic violence can influence alimony decisions, often favoring the victimized spouse."
+      },{
+        "law": "Spousal Support Eligibility",
+        "description": "Alimony is granted to a spouse who lacks sufficient income or resources to support themselves after divorce."
+      },
+      {
+        "law": "Duration of Marriage",
+        "description": "The length of the marriage significantly impacts the amount and duration of alimony awarded."
+      },
+      {
+        "law": "Standard of Living",
+        "description": "Courts consider the standard of living established during the marriage when determining alimony payments."
+      },
+      {
+        "law": "Earning Capacity",
+        "description": "The earning potential of both spouses is assessed to ensure fairness in alimony decisions."
+      },
+      {
+        "law": "Rehabilitative Alimony",
+        "description": "Short-term alimony to support the recipient spouse until they gain education or training to become self-supporting."
+      },
+      {
+        "law": "Permanent Alimony",
+        "description": "Awarded in cases where one spouse is unable to become self-sufficient due to age, health, or other circumstances."
+      }
+]

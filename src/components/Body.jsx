@@ -1,8 +1,10 @@
 import React from 'react'
 import Header from './Header'
 import FlashInport from '../FlashInport'
+import AboutDrop from '../aboutDROP'
 
 const Body = () => {
+  
   return (
     <div className='bg-black'>
       <div className=" h-screen bg-[url('./src/assets/bg.jpg')] bg-cover  bg-scroll bg-center shadow-left">
@@ -36,45 +38,80 @@ const Body = () => {
 
         </div>
       
-      <div className='flex justify-center items-center px-14 mt-24 gap-x-24 pb-24'>
-
-        <div className='flex justify-left items-left flex-col'>
-          <h1 className='text-white text-2xl'><pre>1.7 Million+</pre></h1>
-          <h1 className='text-gray-400'><pre>Lives Positively Impacted</pre></h1>
-        </div>
       
-        <div className='flex flex-col justify-center items-center gap-8'>
-          <div className='text-white m-2 font-bold font-serif text-5xl  w-30 rounded-md antialiased tracking-wide  bg-black'  >
-            <h1>About Us</h1>
+      <div className=' flex flex-col justify-center items-center'>
+          <div className='flex justify-center items-center px-14 mt-20 gap-10 mb-20 '>
+
+            {/*  */}
+          
+            <div className='flex flex-col justify-center items-center gap-6'>
+
+              <div className='text-white m-2 font-bold font-serif text-6xl  w-30 rounded-md antialiased tracking-wide  bg-black'  >
+                <h1>About Us</h1>
+              </div>
+
+              <div>
+                <h1 className='text-white text-[25px] font-extrabold font-serif'><pre>Revolutionary, inclusive, and future-focused</pre></h1>
+              </div>
+            
+              <p className='text-white  text-xl font-serif text-justify w-[550px] tracking-wider '>At EQUIMEN, we empower men by addressing mental health stigma, advocating for legal equality, challenging traditional gender roles, and bridging resource gaps. Our mission is to create a supportive community where men can embrace emotional well-being, access tailored resources, and thrive authentically, free from societal biases and outdated expectations.</p>           
+
+
+              <div className='flex justify-center items-center gap-14 pt-6'>
+                <div className='flex justify-center items-center flex-col'>
+                  <h1 className='text-white text-2xl font-serif'><pre>1.7 Million+</pre></h1>
+                  <h1 className='text-gray-400 font-serif'><pre>Lives Impacted</pre></h1>
+                </div>
+
+
+                <div className='flex justify-center items-center flex-col'>
+                  <h1 className='text-white text-2xl font-serif'>5-7 %</h1>
+                  <h1 className='text-gray-400 font-serif'><pre>cases increased</pre></h1>
+                </div>
+              </div>
+            </div>
+
+            {/*  */}
+              <div className='pt-10'><AboutDrop/></div>
+
           </div>
 
-          <div >
-            <h1 className='text-white text-[25px] font-extrabold font-serif'><pre>Revolutionary, inclusive, and future-focused</pre></h1>
-          </div>
+
           
 
-          <p className='text-white  text-xl font-serif text-center tracking-wider '>At EQUIMEN, we empower men by addressing mental health stigma, advocating for legal equality, challenging traditional gender roles, and bridging resource gaps. Our mission is to create a supportive community where men can embrace emotional well-being, access tailored resources, and thrive authentically, free from societal biases and outdated expectations.</p>
+          
 
-          <div className='pt-4'>
-            <button className=' px-8 py-3 bg-white rounded-3xl'>Read more</button>
+      </div>
+       
+
+      {/* <div className='pt-16'>
+
+        <h1 className='flex justify-center items-center text-white text-5xl font-serif font-bold'>About Us</h1>
+
+        <div className='flex justify-center items-center gap-20 pt-10'>
+
+          <div className='flex flex-col gap-4'>
+
+            <div className='border-2 w-[550px] p-3'>
+              <h1 className='text-white text-[23px] font-serif font-bold flex justify-center items-center'>Mission</h1>
+              <p className='text-white text-[18px] text-justify'>Empowering men by tackling mental health stigma, legal biases, and societal stereotypes. EQUIMEN provides support, resources, and a judgment-free space for men to seek help and share experiences.</p>
+            </div>
+
+            <div className='border-2 w-[550px] p-3'>
+              <h2 className='text-white text-[23px] font-serif font-bold flex justify-center items-center'>Vision</h2>
+              <p className='text-white text-[18px] text-justify'>The Vision highlights the importance of fostering inclusive gender equality that encompasses the unique struggles faced by men, ensuring that their voices are heard and their issues are addressed</p>
+            </div>
+
           </div>
-        
-        
+
+          <div>
+            <AboutDrop/>
+          </div>
         </div>
-
-        <div className='flex justify-left items-left flex-col'>
-          <h1 className='text-white text-2xl'>5-7 %</h1>
-          <h1 className='text-gray-400'><pre>cases increased</pre></h1>
-        </div>
-
-
+      
+      
       </div>
-      <div >
-        
-
-
-      </div>
-
+ */}
 
 
     </div>

@@ -1,0 +1,352 @@
+[
+    { "id": 1, "law": "Section 13 of the Hindu Marriage Act, 1955", "description": "Grounds for divorce under the Hindu Marriage Act, including cruelty, adultery, and desertion." },
+    { "id": 2, "law": "Section 24 of the Hindu Marriage Act, 1955", "description": "Provision for alimony during the pendency of proceedings in a divorce case." },
+    { "id": 3, "law": "Section 125 of the Criminal Procedure Code, 1973", "description": "Provision for maintenance (alimony) to wife, children, and parents if they are unable to maintain themselves." },
+    { "id": 4, "law": "Guardian and Wards Act, 1890", "description": "Laws related to child custody and the appointment of guardians." },
+    { "id": 5, "law": "Section 10 of the Hindu Adoption and Maintenance Act, 1956", "description": "Provision for the maintenance of a wife after divorce, including alimony." },
+    { "id": 6, "law": "Domestic Violence Act, 2005", "description": "Provision for maintenance (alimony) and child custody in case of domestic violence." },
+    { "id": 7, "law": "The Special Marriage Act, 1954", "description": "Divorce provisions for individuals married under the Special Marriage Act, covering issues of alimony and child custody." },
+    { "id": 8, "law": "Section 125 of the Criminal Procedure Code, 1973", "description": "Court's power to grant maintenance and alimony under Section 125." },
+    { "id": 9, "law": "Indian Divorce Act, 1869", "description": "Grounds for divorce and provisions related to alimony for Christian couples." },
+    { "id": 10, "law": "Family Courts Act, 1984", "description": "Establishment of family courts to deal with divorce, maintenance, and child custody cases." },
+    { "id": 11, "law": "Section 18 of the Hindu Adoption and Maintenance Act, 1956", "description": "Entitlement of a wife to claim maintenance even after divorce." },
+    { "id": 12, "law": "Section 9 of the Hindu Marriage Act, 1955", "description": "Provision for restitution of conjugal rights." },
+    { "id": 13, "law": "Section 498A of the Indian Penal Code, 1860", "description": "Cruelty by a husband or his relatives leading to divorce." },
+    { "id": 14, "law": "Section 3 of the Hindu Marriage Act, 1955", "description": "Conditions for a valid marriage under the Hindu Marriage Act." },
+    { "id": 15, "law": "Section 10 of the Divorce Act, 1869", "description": "Provision for a divorce petition under the Divorce Act for Christian couples." },
+    { "id": 16, "law": "Section 6 of the Hindu Adoption and Maintenance Act, 1956", "description": "Defines who is entitled to maintenance and support." },
+    { "id": 17, "law": "Section 20 of the Hindu Adoption and Maintenance Act, 1956", "description": "Provision for maintenance for children after the divorce." },
+    { "id": 18, "law": "Section 5 of the Hindu Marriage Act, 1955", "description": "Conditions for marriage under the Hindu Marriage Act." },
+    { "id": 19, "law": "Section 10 of the Special Marriage Act, 1954", "description": "Grounds for divorce under the Special Marriage Act." },
+    { "id": 20, "law": "Section 7 of the Hindu Marriage Act, 1955", "description": "Cohabitation and non-cohabitation issues in marriage and divorce." },
+    { "id": 21, "law": "The Indian Evidence Act, 1872", "description": "Evidence used in divorce cases, including testimonies and affidavits." },
+    { "id": 22, "law": "Section 19 of the Hindu Marriage Act, 1955", "description": "Jurisdiction of courts for filing divorce cases." },
+    { "id": 23, "law": "The Indian Divorce Act, 1869", "description": "Details of grounds for divorce in Christian marriages." },
+    { "id": 24, "law": "Section 13B of the Hindu Marriage Act, 1955", "description": "Divorce by mutual consent." },
+    { "id": 25, "law": "Section 9 of the Special Marriage Act, 1954", "description": "Application of the Special Marriage Act and divorce provisions." },
+    { "id": 26, "law": "Protection of Women from Domestic Violence Act, 2005", "description": "Alimony and custody considerations for women suffering from domestic violence." },
+    { "id": 27, "law": "Section 19 of the Special Marriage Act, 1954", "description": "Petition for divorce under the Special Marriage Act." },
+    { "id": 28, "law": "Section 24A of the Hindu Marriage Act, 1955", "description": "Provision for alimony during the pendency of divorce proceedings." },
+    { "id": 29, "law": "Indian Penal Code, 1860 - Section 406", "description": "Criminal breach of trust related to marital disputes." },
+    { "id": 30, "law": "Section 11 of the Hindu Marriage Act, 1955", "description": "Annulment of void marriages." },
+    { "id": 31, "law": "Section 125 of the Code of Criminal Procedure, 1973", "description": "Court's power to grant maintenance for wife, children, and parents." },
+    { "id": 32, "law": "The Maintenance and Welfare of Parents and Senior Citizens Act, 2007", "description": "Maintenance provisions for parents and elderly after divorce." },
+    { "id": 33, "law": "Section 6A of the Hindu Marriage Act, 1955", "description": "Provision for settlement of maintenance issues for the wife." },
+    { "id": 34, "law": "Section 24 of the Special Marriage Act, 1954", "description": "Provision for alimony during divorce proceedings." },
+    { "id": 35, "law": "Hindu Marriage Act, 1955 - Section 13(1)(ia)", "description": "Grounds for divorce on the basis of mental cruelty." },
+    { "id": 36, "law": "The Juvenile Justice (Care and Protection of Children) Act, 2015", "description": "Provision for child custody and welfare." },
+    { "id": 37, "law": "Section 13A of the Hindu Marriage Act, 1955", "description": "Provision for restitution of conjugal rights during marriage." },
+    { "id": 38, "law": "Family Court Rules, 1988", "description": "Rules and procedures for family courts to deal with divorce and custody cases." },
+    { "id": 39, "law": "Section 13(2) of the Hindu Marriage Act, 1955", "description": "Grounds for divorce due to adultery." },
+    { "id": 40, "law": "The Hindu Marriage (Amendment) Act, 1976", "description": "Amendments related to marriage, divorce, and alimony." },
+    { "id": 41, "law": "Section 7 of the Special Marriage Act, 1954", "description": "Conditions for registration of marriage under the Special Marriage Act." },
+    { "id": 42, "law": "Section 3 of the Indian Divorce Act, 1869", "description": "Validity and grounds for divorce in Christian marriages." },
+    { "id": 43, "law": "Section 10A of the Hindu Marriage Act, 1955", "description": "Mediation and settlement provisions in divorce cases." },
+    { "id": 44, "law": "Section 17 of the Hindu Marriage Act, 1955", "description": "Conditions for the validity of marriage for Hindu couples." },
+    { "id": 45, "law": "The Indian Succession Act, 1925", "description": "Implications of divorce on inheritance and succession rights." },
+    { "id": 46, "law": "Section 18 of the Hindu Marriage Act, 1955", "description": "Provision for maintenance during the pendency of a divorce case." },
+    { "id": 47, "law": "Section 5(2) of the Hindu Marriage Act, 1955", "description": "Marriage laws for Hindus including age and mental capacity." },
+    { "id": 48, "law": "Section 11A of the Hindu Marriage Act, 1955", "description": "Consequences of a void marriage." },
+    { "id": 49, "law": "Section 10 of the Indian Divorce Act, 1869", "description": "Provision for divorce in Christian marriages." },
+    { "id": 50, "law": "Child Marriage Restraint Act, 1929", "description": "Prohibition of child marriages and the implications for divorce." },
+    { "id": 51, "law": "Section 13(1)(i) of the Hindu Marriage Act, 1955", "description": "Ground for divorce on the basis of desertion." },
+    { "id": 52, "law": "Section 25 of the Hindu Marriage Act, 1955", "description": "Provision for permanent alimony." },
+    { "id": 53, "law": "Section 16 of the Hindu Marriage Act, 1955", "description": "Legitimacy of children born from voidable marriages." },
+    { "id": 54, "law": "Section 16A of the Hindu Marriage Act, 1955", "description": "Maintenance provisions for children of divorced parents." },
+    { "id": 55, "law": "Maintenance and Welfare of Parents and Senior Citizens Act, 2007", "description": "Protection of elderly individuals after divorce or separation." },
+    { "id": 56, "law": "Section 7 of the Indian Divorce Act, 1869", "description": "Court's power to grant divorce in Christian marriages." },
+    { "id": 57, "law": "Section 29 of the Hindu Marriage Act, 1955", "description": "Time limits for filing a divorce"},
+    { "id": 58, "law": "Section 3 of the Hindu Marriage Act, 1955", "description": "Grounds for divorce including cruelty, adultery, and desertion under the Hindu Marriage Act." },
+  { "id": 59, "law": "Section 6 of the Hindu Marriage Act, 1955", "description": "Conditions for divorce including financial support during proceedings." },
+  { "id": 60, "law": "Indian Penal Code, 1860 - Section 498A", "description": "Criminal action for cruelty by the husband or his relatives." },
+  { "id": 61, "law": "Section 6 of the Special Marriage Act, 1954", "description": "Conditions for a valid marriage under the Special Marriage Act, and its effect on divorce." },
+  { "id": 62, "law": "Section 9A of the Hindu Marriage Act, 1955", "description": "Provision for mediation and settlement in divorce cases." },
+  { "id": 63, "law": "Section 5 of the Indian Divorce Act, 1869", "description": "Laws related to divorce for Christian marriages." },
+  { "id": 64, "law": "The Juvenile Justice (Care and Protection of Children) Act, 2015", "description": "Regulations regarding custody and protection of children." },
+  { "id": 65, "law": "The Domestic Violence (Prevention) Act, 2005", "description": "Legal provisions for women and children in cases of domestic violence, impacting divorce and child custody." },
+  { "id": 66, "law": "Section 18 of the Indian Divorce Act, 1869", "description": "Provision for granting alimony to the wife in divorce cases." },
+  { "id": 67, "law": "Section 125 of the Indian Penal Code, 1860", "description": "Provision for maintenance of wife and children who cannot maintain themselves." },
+  { "id": 68, "law": "Section 9 of the Juvenile Justice Act, 2015", "description": "Provisions for the care, protection, and custody of children post-divorce." },
+  { "id": 69, "law": "Hindu Marriage (Amendment) Act, 1976", "description": "Amendments related to divorce and alimony under the Hindu Marriage Act." },
+  { "id": 70, "law": "Section 13B of the Hindu Marriage Act, 1955", "description": "Provision for divorce by mutual consent, allowing for a faster divorce process." },
+  { "id": 71, "law": "Indian Penal Code, Section 323", "description": "Punishment for causing hurt, which can be relevant in divorce cases due to domestic violence." },
+  { "id": 72, "law": "Section 14 of the Indian Divorce Act, 1869", "description": "Grounds for obtaining a divorce in Christian marriages, including adultery and cruelty." },
+  { "id": 73, "law": "Section 27 of the Hindu Marriage Act, 1955", "description": "Provision for division of property after divorce." },
+  { "id": 74, "law": "The Child Marriage Restraint Act, 1929", "description": "Laws against child marriage and the impact on divorce and custody." },
+  { "id": 75, "law": "Section 15 of the Special Marriage Act, 1954", "description": "Provision for divorce on the grounds of cruelty or adultery under the Special Marriage Act." },
+  { "id": 76, "law": "Section 16 of the Hindu Marriage Act, 1955", "description": "Children born out of void and voidable marriages are considered legitimate under the Act." },
+  { "id": 77, "law": "The Protection of Women from Domestic Violence Act, 2005", "description": "Laws that protect women and children in abusive marriages, influencing divorce and custody decisions." },
+  { "id": 78, "law": "Section 5 of the Hindu Marriage Act, 1955", "description": "Conditions for marriage under the Hindu Marriage Act, including the need for legal capacity." },
+  { "id": 79, "law": "Section 3 of the Family Courts Act, 1984", "description": "Provisions for family courts to handle divorce, alimony, and child custody cases." },
+  { "id": 80, "law": "Section 18A of the Hindu Marriage Act, 1955", "description": "Provision for maintenance orders during divorce proceedings." },
+  { "id": 81, "law": "Section 23 of the Special Marriage Act, 1954", "description": "Provision for divorce and alimony in marriages under the Special Marriage Act." },
+  { "id": 82, "law": "Section 13(1)(ib) of the Hindu Marriage Act, 1955", "description": "Grounds for divorce on the basis of cruelty and adultery." },
+  { "id": 83, "law": "Section 3 of the Child Marriage Restraint Act, 1929", "description": "Prevention of child marriage and its impact on marital rights and divorce." },
+  { "id": 84, "law": "Section 6 of the Hindu Marriage Act, 1955", "description": "Grounds for divorce, including adultery and cruelty, and their application to child custody." },
+  { "id": 85, "law": "Section 2 of the Hindu Marriage Act, 1955", "description": "Definition of marriage under the Hindu Marriage Act." },
+  { "id": 86, "law": "Section 13(1)(ii) of the Hindu Marriage Act, 1955", "description": "Provision for divorce on the grounds of conversion to another religion." },
+  { "id": 87, "law": "Section 3 of the Family Courts Act, 1984", "description": "Jurisdiction and powers of family courts to deal with matrimonial disputes, alimony, and child custody." },
+  { "id": 88, "law": "Section 10 of the Hindu Marriage Act, 1955", "description": "Void marriages under the Hindu Marriage Act." },
+  { "id": 89, "law": "Section 2A of the Hindu Marriage Act, 1955", "description": "Provision for divorce in case of mutual consent for couples married under the Hindu Marriage Act." },
+  { "id": 90, "law": "The Maintenance and Welfare of Parents and Senior Citizens Act, 2007", "description": "Laws protecting the rights of senior citizens and parents in divorce cases." },
+  { "id": 91, "law": "The Protection of Women from Domestic Violence Act, 2005 - Section 12", "description": "Provision for protection orders for women in abusive marriages." },
+  { "id": 92, "law": "Section 5(3) of the Hindu Marriage Act, 1955", "description": "Laws regarding the age of marriage and divorce in the Hindu context." },
+  { "id": 93, "law": "Indian Evidence Act, 1872 - Section 65", "description": "Rules about the admissibility of electronic records as evidence in family court cases." },
+  { "id": 94, "law": "Section 28 of the Hindu Marriage Act, 1955", "description": "Power of the court to make interim maintenance orders during divorce proceedings." },
+  { "id": 95, "law": "Section 6 of the Indian Divorce Act, 1869", "description": "Legal requirements for a divorce petition under the Indian Divorce Act." },
+  { "id": 96, "law": "Section 16(2) of the Hindu Marriage Act, 1955", "description": "Maintenance of children born out of invalid marriages." },
+  { "id": 97, "law": "Section 8 of the Juvenile Justice Act, 2015", "description": "Provisions for child welfare and custody during divorce or separation." },
+  { "id": 98, "law": "The Indian Succession Act, 1925 - Section 36", "description": "Provision regarding inheritance rights of children born out of divorce or separation." },
+  { "id": 99, "law": "Section 2 of the Hindu Marriage Act, 1955", "description": "Definition of marriage and its impact on divorce and custody." },
+  { "id": 100, "law": "Section 10 of the Special Marriage Act, 1954", "description": "Provision for divorce and separation under the Special Marriage Act." },
+  {
+    "id": 101,
+    "law": "Section 125 of the Indian Penal Code (IPC), 1860 - Maintenance for Wife and Children",
+    "description": "A husband can be ordered to pay monthly maintenance to his wife or children who are unable to maintain themselves."
+  },
+  {
+    "id": 102,
+    "law": "Section 18 of the Hindu Marriage Act, 1955 - Maintenance and Alimony",
+    "description": "A wife is entitled to maintenance and alimony after divorce. The court considers various factors such as income, standard of living, and needs."
+  },
+  {
+    "id": 103,
+    "law": "Section 24 of the Hindu Marriage Act, 1955 - Interim Maintenance",
+    "description": "While the divorce case is pending, the wife can seek interim maintenance based on the husband's financial capacity."
+  },
+  {
+    "id": 104,
+    "law": "Section 36 of the Divorce Act, 1869 (Christian Divorce) - Alimony for Wife",
+    "description": "Christian wives can apply for alimony during divorce proceedings, determined based on the husband's ability to pay."
+  },
+  {
+    "id": 105,
+    "law": "Section 125 of the Criminal Procedure Code (CrPC) - Maintenance for Divorced Women",
+    "description": "After divorce, a woman can claim maintenance if she cannot support herself. The court considers the husband's income and the woman's standard of living."
+  },
+  {
+    "id": 106,
+    "law": "Section 18 of the Domestic Violence Act, 2005 - Alimony and Maintenance",
+    "description": "Under the Domestic Violence Act, women subjected to violence can seek alimony and maintenance."
+  },
+  {
+    "id": 107,
+    "law": "Percentage of Property Division After Divorce",
+    "description": "In some cases, courts order the division of property, typically 50% to 60% of the jointly held property may be awarded to the wife, based on various factors such as the contribution of each party during marriage."
+  },
+  {
+    "id": 108,
+    "law": "Permanent Alimony under Section 25 of the Hindu Marriage Act, 1955",
+    "description": "After divorce, the wife may receive permanent alimony based on her needs, the husband's financial status, and the standard of living during the marriage."
+  },
+  {
+    "id": 109,
+    "law": "Alimony Under Section 36 of the Divorce Act, 1869",
+    "description": "Christian women are entitled to alimony during or after divorce, taking into account the financial status of both parties."
+  },
+  {
+    "id": 110,
+    "law": "Alimony Considerations - Duration of Marriage",
+    "description": "Longer marriages usually result in higher alimony, with the court considering the spouse’s ability to maintain the previous standard of living."
+  },
+  {
+    "id": 111,
+    "law": "Alimony Considerations - Age and Health",
+    "description": "The court may award higher alimony to a spouse with poor health or advancing age, as they may have limited capacity to support themselves."
+  },
+  {
+    "id": 112,
+    "law": "Alimony Considerations - Child Custody",
+    "description": "In cases where children are involved, the court considers the custodial parent's needs and may award maintenance for the children in addition to alimony for the spouse."
+  },
+  {
+    "id": 113,
+    "law": "Saving Yourself from Alimony Payments",
+    "description": "To avoid heavy alimony payments, the husband can seek a fair settlement by negotiating terms before the court, especially if both parties agree to a divorce settlement."
+  },
+  {
+    "id": 114,
+    "law": "Saving Yourself from Alimony Payments - Pre-Nuptial Agreements",
+    "description": "Pre-nuptial agreements can outline financial terms in case of divorce, including alimony and property division, though their enforceability varies."
+  },
+  {
+    "id": 115,
+    "law": "How to Contest Alimony Orders",
+    "description": "If alimony is considered excessive, the husband can contest it by providing evidence of financial difficulties, the wife’s earning capacity, or other valid defenses."
+  },
+  {
+    "id": 116,
+    "law": "Alimony and Standard of Living",
+    "description": "The alimony amount is often decided based on the standard of living maintained during the marriage, ensuring the spouse does not fall below a certain threshold."
+  },
+  {
+    "id": 117,
+    "law": "Temporary Alimony Payments During Divorce Proceedings",
+    "description": "While a divorce is pending, courts may order temporary alimony payments to ensure the spouse can sustain themselves until the final order."
+  },
+  {
+    "id": 118,
+    "law": "Maintenance After Divorce Based on the Husband’s Earning Capacity",
+    "description": "The amount of alimony and maintenance is generally tied to the husband’s income, with courts ensuring that the wife maintains a similar standard of living post-divorce."
+  },
+  {
+    "id": 119,
+    "law": "Impact of Adultery on Alimony and Maintenance",
+    "description": "In cases where one spouse is guilty of adultery, the other spouse may be entitled to a larger share of property or a higher alimony award."
+  },
+  {
+    "id": 120,
+    "law": "Divorce and Protection of Joint Assets",
+    "description": "Courts ensure that both parties retain fair portions of jointly owned assets in divorce cases, with specific rules to prevent one party from unfairly claiming more."
+  },
+  {
+    "id": 121,
+    "law": "Spousal Maintenance and Property Division in Child Custody",
+    "description": "When children are involved, the court may balance property division and spousal maintenance to ensure the custodial parent can provide adequately for the children."
+  },
+  {
+    "id": 122,
+    "law": "Alimony and Non-Resident Indians (NRIs)",
+    "description": "NRIs seeking divorce in India may be required to pay alimony even if they reside abroad, with the amount depending on their earnings and the court’s discretion."
+  },
+  {
+    "id": 123,
+    "law": "Enforcing Alimony Payments Abroad",
+    "description": "India has reciprocal arrangements with some countries for enforcing alimony orders, which ensures that maintenance payments continue even if the payer moves abroad."
+  },
+  {
+    "id": 124,
+    "law": "Determining the Amount of Alimony - Income-Based Approach",
+    "description": "In most cases, alimony is calculated based on the husband's income. A common range is 20%–30% of the husband's net monthly income."
+  },
+  {
+    "id": 125,
+    "law": "Division of Property Based on Contributions",
+    "description": "Property division may be based on both partners’ financial and non-financial contributions during the marriage, including homemaking and child-rearing roles."
+  },
+  {
+    "id": 126,
+    "law": "Mediation and Settlement for Alimony",
+    "description": "In some cases, couples can opt for mediation to mutually agree on alimony and property division, which can reduce the court’s involvement."
+  },
+  {
+    "id": 127,
+    "law": "How to Protect Property Assets in Divorce",
+    "description": "Individuals can protect their assets by proving they were acquired before marriage or through inheritance and thus should not be subject to division."
+  },
+  {
+    "id": 128,
+    "law": "Children’s Maintenance after Divorce",
+    "description": "Regardless of alimony, the non-custodial parent is usually required to provide for children’s maintenance, which can be separate from spousal maintenance."
+  },
+  {
+    "id": 129,
+    "law": "Alimony and Professional Skills of the Spouse",
+    "description": "Alimony can be reduced or denied if the spouse has significant professional skills or employment opportunities to support themselves."
+  },
+  {
+    "id": 130,
+    "law": "Alimony Post-Divorce - Modification Requests",
+    "description": "If circumstances change (e.g., the husband's income decreases or the wife remarries), either party can request a modification of the alimony order."
+  },
+  {
+    "id": 131,
+    "law": "Alimony Payment in Lump Sum Amount",
+    "description": "In certain cases, the wife may request a lump-sum payment instead of monthly alimony, which can be agreed upon during divorce settlement discussions."
+  },
+  {
+    "id": 132,
+    "law": "Protection Against Excessive Alimony Demands",
+    "description": "Men can contest excessive alimony demands by demonstrating financial inability or arguing for a fair settlement based on their earning capacity."
+  },
+  {
+    "id": 133,
+    "law": "Income from Separate Property and Alimony",
+    "description": "If one spouse has separate property (e.g., inheritance), income derived from it may be considered while determining alimony payments."
+  },
+  {
+    "id": 134,
+    "law": "Alimony Payment Duration Based on Marriage Duration",
+    "description": "The longer the marriage, the longer the duration of alimony payments, with long marriages often resulting in lifelong alimony."
+  },
+  {
+    "id": 135,
+    "law": "Financial Settlements Before Marriage - Pre-Nuptial Agreements",
+    "description": "Pre-nuptial agreements, although not commonly used in India, may include provisions for alimony and property division in case of divorce."
+  },
+  {
+    "id": 136,
+    "law": "Short-Term Marriage and Alimony Duration",
+    "description": "For short-term marriages, alimony is typically awarded for a shorter period, with the exact duration depending on factors like the spouse’s financial situation."
+  },
+  {
+    "id": 137,
+    "law": "Alimony and Impact of Social Media Evidence",
+    "description": "Social media evidence of a spouse’s financial activities, lifestyle, or income can influence alimony decisions during divorce proceedings."
+  },
+  {
+    "id": 138,
+    "law": "Maintenance After Divorce for Disabled Spouse",
+    "description": "A disabled spouse may be entitled to a higher alimony amount, as they may not be able to support themselves independently."
+  },
+  {
+    "id": 139,
+    "law": "Alimony for Spouse with Young Children",
+    "description": "If a spouse is caring for young children, they may be awarded higher alimony to cover the costs of childcare, healthcare, and other needs."
+  },
+  {
+    "id": 140,
+    "law": "Alimony After Remarriage of Spouse",
+    "description": "Alimony payments are often terminated if the spouse receiving alimony remarries, though this can be contested if they face financial hardships after remarriage."
+  },
+  {
+    "id": 141,
+    "law": "Temporary Maintenance Under Domestic Violence Act",
+    "description": "Under the Domestic Violence Act, women can seek temporary maintenance during legal proceedings for protection from violence."
+  },
+  {
+    "id": 142,
+    "law": "Alimony and Division of Assets in Jointly Owned Properties",
+    "description": "The division of jointly owned properties may be decided based on the contributions of both parties during the marriage, including financial and non-financial contributions."
+  },
+  {
+    "id": 143,
+    "law": "Importance of Financial Disclosure in Alimony Cases",
+    "description": "Both spouses are required to disclose their financial assets and income during divorce proceedings, which is essential for determining alimony."
+  },
+  {
+    "id": 144,
+    "law": "Alimony and Spousal Support for Stay-at-Home Parents",
+    "description": "A stay-at-home parent may be entitled to alimony due to their inability to earn an income or gain employment during marriage."
+  },
+  {
+    "id": 145,
+    "law": "Alimony for Women with Special Needs",
+    "description": "Women with special medical or psychological needs may receive higher alimony to cover their medical expenses and general care."
+  },
+  {
+    "id": 146,
+    "law": "Mutual Consent Divorce and Alimony",
+    "description": "In a mutual consent divorce, alimony terms are negotiated between the parties and formalized in the divorce agreement."
+  },
+  {
+    "id": 147,
+    "law": "Divorce Settlement and Transfer of Property",
+    "description": "Property can be transferred as part of a divorce settlement, with provisions for future property division and alimony payments."
+  },
+  {
+    "id": 148,
+    "law": "Legal Protection for Men Against Unreasonable Alimony Demands",
+    "description": "Men have legal protection if they believe alimony demands are excessive or unjustified, allowing them to challenge the amount in court."
+  },
+  {
+    "id": 149,
+    "law": "Child Custody and Alimony Considerations",
+    "description": "When children are involved in a divorce, alimony may be adjusted to account for the custodial parent’s financial obligations toward raising the children."
+  },
+  {
+    "id": 150,
+    "law": "Alimony Calculation in High Net-Worth Divorces",
+    "description": "In high net-worth divorces, alimony is typically calculated based on the wealth and assets of both parties, with the aim of ensuring fair financial support."
+  }
+]  
