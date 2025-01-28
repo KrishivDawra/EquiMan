@@ -85,25 +85,17 @@ const Body = () => {
       <div>
 
     <div className='flex justify-between pt-8 pb-20 px-16 bg-slate-700 text-white'>
-      <div>
-        <h1 className='font-bold text-xl'>Our Locations</h1>
-        <p>Maharashtra</p>
-        <p>Gujrat</p>
-        <p>Tamil Nadu</p>
-        <p>Haryana</p>
-        <p>Punjab</p>
-        
-
-      </div>
+      
 
       <div>
         <h1 className='font-bold  text-xl'>Quick Links</h1>
         <div className='flex flex-col'>
           
           
-          <a href="#Blockchain">Blockchain</a>
-          <a href="#Nutrients">Nutrients</a>
-          <a href="#Setup">Setup</a>
+          <a href="#Blockchain">Therapist Directory</a>
+          <a href="#Nutrients">Breaking Stigma</a>
+          <a href="#Setup">Events & Webinars</a>
+          <a href="#Setup">Mentorship Program</a>
         </div>
         
 
@@ -113,16 +105,18 @@ const Body = () => {
       <h1 className='font-bold  text-xl'>Contact Us</h1>
         
         
-        <p>Bachaooo@gmail.com</p>
+        <p>equimen@gmail.com</p>
         <p>+91-93993-93993</p>
       </div>
 
       <div>
       <h1 className='font-bold  text-xl'>Our Services</h1>
-        <p>Fast Delivey</p>
-        <p>Easy Payments</p>
-        <p>Easy Acess</p>
-        <p>24x7 Service</p>
+        <p>Mental Health Support 
+        </p>
+        <p>Legal Assistance</p>
+        <p>Community Forums
+        </p>
+        <p>Awareness Programs</p>
 
       </div>
       </div>
